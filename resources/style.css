@@ -1,0 +1,156 @@
+body{
+  height:100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.topbarcontainer{
+  display: flex;
+  justify-content: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gmaillink{
+  margin: 10px 5px 10px 5px;
+  padding: 20px;
+  color: grey;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageslink{
+  margin:20px 15px 20px 15px;
+  padding: 10px;
+  color:grey;
+  text-decoration:none;
+}
+
+.littlefuckinggrid{
+  margin: 5px;
+}
+
+.signin{
+  margin: 20px 15px 20px 15px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sectionpicture{
+  display:flex;
+  max-width: 461px;
+  margin: 1px auto;
+  float:none;
+  justify-content: center;
+}
+.searchcontainer{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.searchbar{
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-shadow: 3px 1px gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bar{
+  border: none;
+  width:470px;
+  height:38px;
+}
+.two-optionscontainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.two-options{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 40px;
+}
+.googlesearch{
+  display:flex;
+  justify-content: space-around;
+  background-color: #E8E8E8;
+  padding: 0px 10px 0px 10px;
+}
+.googlesearch:hover{
+  border:1px solid;
+  background-color: #7c7777;
+}
+
+.togetlucky{
+  display:flex;
+  justify-content: space-around;
+  background-color: #E8E8E8;
+  padding: 0px 10px 0px 10px;
+}
+.togetlucky:hover{
+  border:1px solid;
+  background-color: #7c7777;
+}
+
+footer{
+  position:absolute; bottom:0px; left:0px; right:0px;
+}
+
+.abovebottomlinks{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height:20px;
+  width:100%;
+  margin-top: 150px;
+  padding:5px;
+  background-color: #E8E8E8;
+}
+
+.allbottomlinks{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  margin: 2px;
+  height: 20px;
+  width: 100%;
+  padding-top: 5px;
+  background-color: #E8E8E8;
+}
+
+.bottomleftlinks{
+  display:flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1px;
+}
+
+.bottomrightlinks{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 1px;
+}
+
+.leftistbastards{
+  margin:5px;
+  padding: 10px;
+}
+
+.rightistbastards{
+  margin:5px;
+  padding: 10px;
+}
